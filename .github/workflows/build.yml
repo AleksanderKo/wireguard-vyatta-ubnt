@@ -17,7 +17,7 @@ env:
 
 jobs:
   headers:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-18.04
     container:
       image: ghcr.io/fossoreslp/ubnt-build:${{ matrix.image }}
       env:
