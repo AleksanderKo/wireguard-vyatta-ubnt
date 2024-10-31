@@ -12,7 +12,7 @@ jobs:
 
     strategy:
         matrix:
-          tag: [mips, mipsel, mtk, octeon]
+          tag: [octeon]
           type: [kernel, tools]
           exclude:
             - tag: mips
